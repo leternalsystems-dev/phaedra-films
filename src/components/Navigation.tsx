@@ -7,7 +7,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Video className="h-6 w-6 text-primary" />
-          <span className="text-xl font-bold">CinemaVision</span>
+          <span className="text-xl font-bold">Phaedra Films</span>
         </div>
         
         <div className="hidden md:flex items-center gap-8">

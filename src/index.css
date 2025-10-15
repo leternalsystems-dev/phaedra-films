@@ -8,57 +8,57 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
+    --background: 0 0% 8%;
     --foreground: 0 0% 98%;
 
-    --card: 240 10% 6%;
+    --card: 0 0% 12%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 240 10% 6%;
+    --popover: 0 0% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 189 94% 43%;
-    --primary-foreground: 240 10% 3.9%;
+    --primary: 330 81% 60%;
+    --primary-foreground: 0 0% 8%;
 
-    --secondary: 240 5% 15%;
+    --secondary: 0 0% 18%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 240 5% 15%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 64.9%;
 
-    --accent: 189 94% 43%;
-    --accent-foreground: 240 10% 3.9%;
+    --accent: 330 81% 60%;
+    --accent-foreground: 0 0% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 5% 20%;
-    --input: 240 5% 20%;
-    --ring: 189 94% 43%;
+    --border: 0 0% 22%;
+    --input: 0 0% 22%;
+    --ring: 330 81% 60%;
 
     --radius: 0.75rem;
 
-    /* Cinematic theme colors */
-    --cinematic-dark: 240 10% 3.9%;
-    --cinematic-surface: 240 10% 6%;
-    --cinematic-border: 240 5% 20%;
-    --cyan-glow: 189 94% 43%;
-    --cyan-bright: 186 100% 50%;
-    --gradient-hero: linear-gradient(135deg, hsl(189 94% 43% / 0.1) 0%, hsl(240 10% 3.9%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(189 94% 43%) 0%, hsl(186 100% 50%) 100%);
+    /* Phaedra Films theme colors */
+    --cinematic-dark: 0 0% 8%;
+    --cinematic-surface: 0 0% 12%;
+    --cinematic-border: 0 0% 22%;
+    --pink-glow: 330 81% 60%;
+    --pink-bright: 330 100% 70%;
+    --gradient-hero: linear-gradient(135deg, hsl(330 81% 60% / 0.15) 0%, hsl(0 0% 8%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(330 81% 60%) 0%, hsl(330 100% 70%) 100%);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 240 10% 6%;
+    --sidebar-background: 0 0% 12%;
     --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 189 94% 43%;
-    --sidebar-primary-foreground: 240 10% 3.9%;
-    --sidebar-accent: 240 5% 15%;
+    --sidebar-primary: 330 81% 60%;
+    --sidebar-primary-foreground: 0 0% 8%;
+    --sidebar-accent: 0 0% 18%;
     --sidebar-accent-foreground: 0 0% 98%;
-    --sidebar-border: 240 5% 20%;
-    --sidebar-ring: 189 94% 43%;
+    --sidebar-border: 0 0% 22%;
+    --sidebar-ring: 330 81% 60%;
   }
 }
 

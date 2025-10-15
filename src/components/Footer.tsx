@@ -7,11 +7,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
             <Video className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold">CinemaVision</span>
+            <span className="text-xl font-bold">Phaedra Films</span>
           </div>
           
           <div className="text-muted-foreground text-sm">
-            © 2024 CinemaVision. All rights reserved.
+            © 2024 Phaedra Films. All rights reserved.
           </div>
           
           <div className="flex gap-6">

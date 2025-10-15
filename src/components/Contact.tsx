@@ -27,7 +27,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Email</h3>
-                  <p className="text-muted-foreground">hello@cinemavision.com</p>
+                  <p className="text-muted-foreground">hello@phaedrafilms.com</p>
                 </div>
               </div>
             </Card>
