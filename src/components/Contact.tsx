@@ -58,34 +58,47 @@ const Contact = () => {
           </div>
           
           <Card className="p-8 bg-card border-border">
-            <form className="space-y-6">
+            <form 
+              action="mailto:hello@phaedrafilms.com" 
+              method="POST" 
+              encType="text/plain"
+              className="space-y-6"
+            >
               <div>
                 <Input 
+                  name="name"
                   placeholder="Your Name" 
                   className="bg-background border-border"
+                  required
                 />
               </div>
               <div>
                 <Input 
-                  type="email" 
+                  type="email"
+                  name="email"
                   placeholder="Your Email" 
                   className="bg-background border-border"
+                  required
                 />
               </div>
               <div>
                 <Input 
+                  name="subject"
                   placeholder="Subject" 
                   className="bg-background border-border"
+                  required
                 />
               </div>
               <div>
                 <Textarea 
+                  name="message"
                   placeholder="Tell us about your project..." 
                   rows={5}
                   className="bg-background border-border"
+                  required
                 />
               </div>
-              <Button variant="hero" size="lg" className="w-full">
+              <Button type="submit" variant="hero" size="lg" className="w-full">
                 Send Message
               </Button>
             </form>
