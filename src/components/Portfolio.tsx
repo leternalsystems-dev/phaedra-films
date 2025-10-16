@@ -1,7 +1,7 @@
 import VideoCard from "./VideoCard";
-import weddingThumb from "@/assets/wedding-thumb.jpg";
-import corporateThumb from "@/assets/corporate-thumb.jpg";
-import musicThumb from "@/assets/music-thumb.jpg";
+import weddingThumb from "@/assets/wedding-thumb.png";
+import corporateThumb from "@/assets/corporate-thumb.png";
+import musicThumb from "@/assets/music-thumb.png";
 import documentaryThumb from "@/assets/documentary-thumb.jpg";
 
 const Portfolio = () => {
@@ -13,7 +13,7 @@ const Portfolio = () => {
       videoSrc: "/videos/wedding.webm"
     },
     {
-      title: "TechCorp Brand Story",
+      title: "TechCorp Brand Stor",
       category: "Corporate",
       thumbnail: corporateThumb,
       videoSrc: "/videos/corporate.webm"
