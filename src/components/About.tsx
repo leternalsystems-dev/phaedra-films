@@ -3,9 +3,9 @@ import { Award, Users, Video } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: Video, value: "500+", label: "Projects Completed" },
-    { icon: Users, value: "200+", label: "Happy Clients" },
-    { icon: Award, value: "15+", label: "Industry Awards" }
+    { icon: Video, value: "50+", label: "Projects Completed" },
+    { icon: Users, value: "20+", label: "Happy Clients" },
+    { icon: Award, value: "15+", label: "Achievements" }
   ];
 
   return (
@@ -17,7 +17,7 @@ const About = () => {
               <span className="text-primary text-sm font-medium">About Us</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Crafting Visual Stories Since 2015
+              Crafting Visual Stories Since 2020
             </h2>
             <p className="text-muted-foreground text-lg mb-6">
               We are a team of passionate videographers dedicated to capturing moments that matter. 

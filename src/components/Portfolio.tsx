@@ -7,7 +7,7 @@ import documentaryThumb from "@/assets/documentary-thumb.jpg";
 const Portfolio = () => {
   const videos = [
     {
-      title: "Sarah & James Wedding",
+      title: "Jumoke & Abiola Wedding",
       category: "Wedding",
       thumbnail: weddingThumb,
       videoSrc: "/videos/wedding.webm"
@@ -19,7 +19,7 @@ const Portfolio = () => {
       videoSrc: "/videos/corporate.webm"
     },
     {
-      title: "Summer Nights Tour",
+      title: "Yaran NorthSide Tour",
       category: "Music Video",
       thumbnail: musicThumb,
       videoSrc: "/videos/music.webm"
