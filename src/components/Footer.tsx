@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           
           <div className="text-muted-foreground text-sm">
-            © 2025 Phaedra Films. All rights reserved.
+            © 2025 Phaedra Films. All rights reserved. Built by Leternal Systems.
           </div>
           
           <div className="flex gap-6">
